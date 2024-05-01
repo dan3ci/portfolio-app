@@ -6,7 +6,10 @@
 }
 
 .hero img{
-    margin-top: 150px;
+    margin-top: 10px;
+    transform: scale(.75);
+    border-radius: 50%;
+    border: 10px solid white;
 }
 
 .hero h1{
