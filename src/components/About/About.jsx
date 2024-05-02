@@ -6,7 +6,7 @@ import pro_pp from '../../assets/profile_imagepp.svg'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div id='about' className='about'>
       <div className="about-title">
         <h1>About me</h1>
         <img src={theme_pattern} alt="" />
@@ -41,7 +41,7 @@ const About = () => {
         <hr />
         <div className="about-achievement">
           <h1>50+</h1>
-          <p>happy clients</p>
+          <p>HAPPY CLIENTS</p>
         </div>
       </div>
 
