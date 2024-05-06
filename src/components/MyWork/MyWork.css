@@ -22,8 +22,6 @@
     bottom: 0;
     right: 0;
     z-index: -1;
-<<<<<<< HEAD
-=======
 }
 
 .mywork-container{
@@ -63,9 +61,6 @@
 .mywork-showmore:hover{
     gap: 30px;
     transition: 0.6s;
-<<<<<<< HEAD
->>>>>>> 7e2695f7418396d46eb4624c086d3b450cdfbc64
-=======
 }
 
 @media(max-width: 768px){
@@ -102,5 +97,5 @@
         margin: 50px auto;
         cursor: pointer;
     }
->>>>>>> 1d85518c23ab310aed703d7850df5334b51f34fc
+
 }

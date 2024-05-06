@@ -12,16 +12,17 @@
     list-style: none;
     gap: 60px;
     font-size: 20px ;
+    margin-left: 15px;
 }
 
 .nav-connect {
-    padding: 20px 40px;
+    padding: 15px 40px;
     border-radius: 50px;
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
     font-size: 22px;
     cursor: pointer;
-    transition: 0.5s
-    ;
+    transition: 0.5s;
+    margin-left: 15px;
 }
 
 .nav-connect:hover {
@@ -44,13 +45,15 @@
     color: white;
 }
 
+.navbar ul img{
+    display: none;
+}
+
 .nav-mob-open{
     display: none;
 }
 
-.nav-mob-close{
-    display: none;
-}
+
 
 @media(max-width: 768px) {
     .navbar {
@@ -67,11 +70,10 @@
         right: 30px;
     }
 
-    .nav-mob-close{
+    .navbar ul img{ 
         display: block;
         position: relative;
-        top: 30px;
-        left: 290px;
+        left: 20vw;
         width: 30px;
     }
 
@@ -82,7 +84,7 @@
         top: 0;
         gap: 30px;
         background-color: #1F0016;
-        width: 350px;
+        width: 300px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
